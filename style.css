@@ -1,0 +1,66 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+    font-family: "Lato",sans-serif;
+    font-weight: 500px;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pWimg0,.pWimg1,.pWimg2,.pWimg3,.pWimg4,.pWimg5{
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pabout{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+.pWimg0{
+    background-image: url("image/img0.jpg");
+}
+
+.pWimg1{
+    background-image: url("image/img1.jpg");
+}
+
+.pWimg2{
+    background-image: url("image/img2.jpg");
+}
+
+.pWimg3{
+    background-image: url("image/img3.jpg");
+}
+
+.pWimg4{
+    background-image: url("image/img4.jpg");
+}
+
+.pWimg5{
+    background-image: url("image/img5.jpg");
+}
+
+
+.textbg{
+    background: rgba(255,255,255, 0.175);
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about{
+    padding: 30px 80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #fff;
+}
